@@ -37,22 +37,6 @@ ln -s ~/dotfiles/.config/nvim ~/.config/nvim
 ln -s ~/dotfiles/.config/kitty ~/.config/kitty
 ```
 
-## Install Fonts (Fira Code & Symbols)
-
-To install the Fira Code and Nerd Fonts, run the following commands:
-
-```bash
-mkdir -p ~/.local/share/fonts
-cd ~/.local/share/fonts
-wget https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip
-unzip Fira_Code_v6.2.zip
-rm -f Fira_Code_v6.2.zip
-
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/NerdFontsSymbolsOnly.zip
-unzip NerdFontsSymbolsOnly.zip
-fc-cache -fr
-```
-
 ## Run Font Installation Scripts
 
 Finally, run the following scripts to complete the font installation:
