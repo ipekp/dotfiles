@@ -14,3 +14,9 @@ cd dotfiles
 ```
 
 Most if not all symbols output from scripts/test-fonts.sh should print correctly
+
+# Changes
+
+```bash
+git remote set-url origin git@github.com:ipekp/dotfiles.git
+```
