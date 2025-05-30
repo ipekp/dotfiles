@@ -1,4 +1,4 @@
-```markdown
+
 # Installation Guide
 
 ## Requirements
@@ -64,5 +64,3 @@ bash scripts/test-fonts.sh
 
 Make sure to follow each step carefully to ensure a successful installation.
 ```
-
-This format provides a structured and easy-to-follow guide for installation, with clear headings and code blocks for commands.
