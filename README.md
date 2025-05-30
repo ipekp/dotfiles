@@ -1,6 +1,7 @@
 
 # Installation Guide
-
+## Todo
+Some kind of script to simplify
 ## Requirements
 
 Before you begin, ensure your system is up to date and install the necessary packages:
