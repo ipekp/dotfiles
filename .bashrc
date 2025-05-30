@@ -93,8 +93,8 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # vim
-alias vim='neovim'
-alias vi='neovim'
+alias vim='nvim'
+alias vi='nvim'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
