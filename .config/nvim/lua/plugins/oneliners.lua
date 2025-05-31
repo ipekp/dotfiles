@@ -3,6 +3,12 @@ return {
     "ojroques/vim-oscyank",
   },
   { -- git plugin
-      "tpope/vim-fugitive",
+    "tpope/vim-fugitive",
+  },
+  { -- autotag
+    "windwp/nvim-ts-autotag",
+    config = function()
+      require("nvim-ts-autotag").setup()
+    end,
   },
 }
