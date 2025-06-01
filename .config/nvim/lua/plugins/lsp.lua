@@ -28,5 +28,10 @@ return {
 				vim.lsp.enable(server)
 			end
 		end,
+    vim.diagnostic.config({
+      virtual_text = true,
+      -- virtual_lines = true,
+      underline = true,
+    })
 	},
 }

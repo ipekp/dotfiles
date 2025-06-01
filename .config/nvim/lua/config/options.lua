@@ -85,8 +85,3 @@ vim.opt.incsearch = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
--- Diagnostic display inline
-vim.diagnostic.config({
-    virtual_text = true,
-    underline = true
-})
