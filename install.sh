@@ -7,7 +7,7 @@ echo "Working dir is ${work_dir}"
 
 cd $HOME
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y cmake git kitty curl tmux build-essential python3 python3-venv python3-pip xsel unzip fontconfig
+sudo apt install -y cmake git kitty curl tmux build-essential python3 python3-venv python3-pip xsel unzip fontconfig ripgrep
 clear
 
 # install neovim
