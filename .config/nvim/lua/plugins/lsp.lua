@@ -1,4 +1,5 @@
 -- :h ins-completion
+-- grr words under cursor put to quick fix list
 return {
 	{
 		"williamboman/mason.nvim",
