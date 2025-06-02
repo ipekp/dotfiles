@@ -16,6 +16,7 @@ echo "[STEP 2] install neovim"
 cd /tmp
 git clone https://github.com/neovim/neovim
 cd /tmp/neovim
+git checkout stable 
 make CMAKE_BUILD_TYPE=Release
 sudo make install
 clear
