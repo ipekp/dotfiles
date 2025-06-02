@@ -16,8 +16,8 @@ return
 		-- C-k: Toggle signature help (if signature.enabled = true)
 		--
 		-- See :h blink-cmp-config-keymap for defining your own keymap
-		keymap = { preset = 'default' },
-		["<C><leader>"] = { "show" },
+		keymap = { preset = 'super-tab' },
+		-- ["<C><leader>"] = { "show" },
 		appearance = {
 			nerd_font_variant = 'mono'
 		},
@@ -33,3 +33,6 @@ return
 	},
 	opts_extend = { "sources.default" }
 }
+
+
+

@@ -6,13 +6,16 @@ vim.g.mapleader = " "
 -- Set leader key to space
 vim.g.maplocalleader = " "
 
+-- Disable mouse
+vim.opt.mouse = ""
+
 -- Number of spaces a tab represents
-vim.opt.tabstop = 2
-vim.opt.softtabstop = 2
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
 
 -- Use appropriate when using indent command
 vim.opt.expandtab = true
-vim.opt.shiftwidth = 2
+vim.opt.shiftwidth = 4
 
 -- Indenting correctly after { etc
 vim.opt.smartindent = true
