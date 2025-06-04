@@ -10,6 +10,9 @@ vim.g.maplocalleader = " "
 
 vim.opt.nu = true
 vim.opt.rnu = true
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+vim.opt.signcolumn = "yes:1"
 
 vim.opt.clipboard = "unnamedplus"
 vim.opt.shiftwidth = 4
