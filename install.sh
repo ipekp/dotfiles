@@ -7,7 +7,6 @@ echo "Working dir is ${work_dir}"
 
 cd $HOME
 sudo apt update && sudo apt upgrade -y
-#sudo apt install -y cmake git kitty curl tmux build-essential python3 python3-venv python3-pip xsel unzip fontconfig ripgrep
 sudo apt install -y cmake git kitty curl tmux build-essential python3 python3-venv python3-pip xsel unzip fontconfig ripgrep
 clear
 
@@ -31,7 +30,7 @@ ln -s ~/dotfiles/.tmux.conf .tmux.conf
 ln -s ~/dotfiles/.bashrc .bashrc
 mkdir -p ~/.config
 ln -s ~/dotfiles/.config/nvim ~/.config/nvim
-#ln -s ~/dotfiles/.config/kitty ~/.config/kitty
+ln -s ~/dotfiles/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 clear
 
 # install fonts
