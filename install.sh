@@ -28,7 +28,7 @@ git clone https://github.com/ipekp/dotfiles.git
 rm -f .tmux.conf .bashrc
 ln -s ~/dotfiles/.tmux.conf .tmux.conf
 ln -s ~/dotfiles/.bashrc .bashrc
-mkdir -p ~/.config
+mkdir -p ~/.config/kitty/
 ln -s ~/dotfiles/.config/nvim ~/.config/nvim
 ln -s ~/dotfiles/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 clear
