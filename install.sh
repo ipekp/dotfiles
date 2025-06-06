@@ -43,3 +43,4 @@ cd $work_dir/scripts
 echo "[STEP 5] verify fonts"
 ./test-fonts.sh
 
+echo "[STEP 6] use Mason to install isort, black and stylua"
