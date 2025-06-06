@@ -25,7 +25,7 @@ clear
 echo "[STEP 3] dotfile links"
 cd $HOME
 git clone https://github.com/ipekp/dotfiles.git
-rm -f .tmux.conf .bashrc
+rm -f .tmux.conf .bashrc ~/.config/kitty/kitty.conf
 ln -s ~/dotfiles/.tmux.conf .tmux.conf
 ln -s ~/dotfiles/.bashrc .bashrc
 mkdir -p ~/.config/kitty/

@@ -1,3 +1,4 @@
 *.swp
 lazy-lock.json
 .config/nvim/lazy-lock.json
+.tmux.conf
