@@ -1,24 +1,24 @@
 return {
 	{
 		"vimwiki/vimwiki",
-		opts = {
-			vimwiki_folding = "list",
-			vimwiki_list = {
-				path = "~/notes",
-				syntax = "markdown",
-				ext = ".md",
-			},
-			vimwiki_ext2syntax = {
-				md = "markdown",
-				markdown = "markdown",
-				mdown = "markdown",
-			},
-			vimwiki_markdown_link_ext = 1,
-			taskwiki_markup_syntax = "markdown",
-			markdown_folding = 1,
-		},
-
 		config = function() end,
+		init = function()
+			local opts = {
+				vimwiki_folding = "list",
+				vimwiki_list = { {
+					path = "~/notes",
+					syntax = "markdown",
+					ext = ".md",
+				} },
+				vimwiki_markdown_link_ext = 1,
+				taskwiki_markup_syntax = "markdown",
+				markdown_folding = 1,
+			}
+			--vim.print(opts)
+			for k, v in pairs(opts) do
+				vim.g[k] = v
+			end
+		end
 	},
 	vim.keymap.set("n", "tl", "<cmd>VimwikiToggleListItem<CR>", { desc = "Toggle task" }),
 }
