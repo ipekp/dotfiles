@@ -1,6 +1,3 @@
-vim.keymap.set("n", "<space><space>x", "<cmd>source %<CR>")
-vim.keymap.set("n", "<space>x", ":.lua<CR>")
-
 -- default options
 
 vim.keymap.set("n", "<leader>", "<nop>")
@@ -18,5 +15,11 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
+
+-- keymaps
+
+vim.keymap.set("n", "<leader><leader>x", "<cmd>source %<CR>")
+vim.keymap.set("n", "<leader>x", ":.lua<CR>")
+vim.keymap.set("n", "<leader>ww", "<cmd>edit ~/notes/index.md<CR>")
 
 require("config.lazy")
